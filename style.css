@@ -1,0 +1,287 @@
+/* Body html */
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+/* End Html Body */
+
+/* Navbar */
+header {
+    background: aqua;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Nama {
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .4s ease 0s;
+}
+
+.Nama:hover {
+    color: rgb(255, 0, 0);
+    transform: rotate(5deg);
+}
+
+.tombol {
+    margin-right: 10px;
+    border: none;
+    font-size: 17px;
+    padding: 6px 12px;
+    background: #FF6A3D;
+    color: aliceblue;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    padding: 18px;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li a {
+    transition: all .5s ease 0s;
+    display: block;
+}
+
+li a:hover{
+    color: #FF6A3D;
+    transform: rotate(3deg);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.con-1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.des {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.Foto {
+    width: 100%;
+    max-width: 400px;
+    max-height: auto;
+    border-radius: 10px;
+    box-shadow: 0 7px 8px rgb(0, 0, 0);
+    margin-bottom: 10px;
+    padding-top: 0%;
+}
+
+.paralax {
+    background: linear-gradient(50deg, rgb(2, 0, 36, 1),  rgb(37, 37, 114, 1),  rgb(0, 212, 255, 1) );
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.tentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: aqua;
+    color: #030303;
+    padding: 25px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-item {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    background: aliceblue;
+    color: #222;
+    padding: 25px;
+    border-radius: 9px;
+    transition: all .5s ease 0s;
+} 
+
+.card-item:hover {
+    box-shadow: 2px 7px 5px 2px rgba(0, 0, 0, 0.5);
+    bottom: 35px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.card-des {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.icon {
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+    padding: 4px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: aqua;
+    color: #030303;
+}
+
+.about-section {
+    width: 100%;
+    background: rgb(0,179,255);
+    background: linear-gradient(90deg, rgba(0,179,255,1) 15%, rgba(0,149,255,1) 35%, rgba(73,0,255,1) 100%);
+    padding: 60px 0;
+  }
+  
+  .inner-width {
+    color: white;
+    max-width: 1000px;
+    overflow: hidden;
+    padding: 0 20px;
+    margin: auto;
+  }
+  
+  .about-section h1 {
+    text-align: center;
+  }
+  
+  .border {
+    width: 100px;
+    height: 3px;
+    background: rgb(196, 196, 196);
+    margin: 40px auto;
+  }
+  
+  .about-section-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .about-section-col {
+    flex: 50%;
+  }
+  
+  .about {
+    padding-right: 50px;
+  }
+  
+  .inner-width span {
+    color: crimson;
+  }
+
+  .about p {
+    color: aliceblue;
+    text-align: justify;
+    margin-bottom: 40px;
+  }
+  
+  .about a:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(79, 214, 255);
+  }
+  
+  .content {
+    float: left;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: -10px;
+    position: relative;
+    width: 500px;
+  }
+  
+  .col {
+    width: 500px;
+  }
+  
+  .col h2 {
+    display: block;
+    padding-bottom: 50px;
+    font-size: 30px;
+  }
+  
+  .about img {
+    box-shadow: 0 0 0 5px white, 0 0 0 10px #34495E;
+    border: 2px solid #34495E;
+    position: static;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .expand {
+    height: 6px;
+    background-color: rgb(79, 214, 255);
+    margin: 3px 0;
+    position: absolute;
+    animation: progress 3s linear;
+    border-radius: 5px;
+  }
+
+@media screen and (max-width: 500px) {
+    .card {
+        flex-direction: column;
+        gap: 0;
+    }
+    .card-item {
+        width: 100%;
+    }
+    .con-1 {
+        padding: 0;
+    }
+
+    .intro {
+        margin-top: 20pxs;
+    }
+
+    .Foto {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+}
